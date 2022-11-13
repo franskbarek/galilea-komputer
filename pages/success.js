@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { Router } from "next/router";
 import { BsBagCheckFill } from "react-icons/bs";
 import { useStateContext } from "../context/StateContext";
 import { runFireWorks } from "../lib/utils";
 
-export default function success() {
+export default function Success() {
   const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
-  //   const [order, setOrder] = useState(null);
 
   useEffect(() => {
     localStorage.clear();

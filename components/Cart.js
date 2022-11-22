@@ -86,7 +86,7 @@ export default function Cart() {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Subtotal:</h3>
+              <h3>Total :</h3>
               <h3>{formatMoney(totalPrice)}</h3>
             </div>
             <div className="btn-container">
